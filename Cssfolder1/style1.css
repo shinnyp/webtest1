@@ -1,0 +1,42 @@
+body{width: 900px;margin: 0 auto; border: 
+    dashed chocolate; }
+
+
+header{
+    color:brown; background-color: rgb(243, 216, 176); text-align: center;border-width: 5;
+}
+
+h1{color:brown; background-color: blanchedalmond; text-align: center;}
+
+.nav{
+    display: flex; font-weight: bold; }
+
+.nav ul li{border: solid darkorange 2px;border-radius: 5px;}
+
+.nav ul li a:link, nav ul li a:active, nav ul li a:visited{
+    color: rgb(202, 47, 47); text-decoration: none;
+    ;} /* nav區塊裡的變化 */
+nav ul li a:hover{color:brown;font-size: 1.2rem;}/* 摸到按鍵的變化 */
+
+.nav-list{
+    list-style: none;
+    margin-right: 20px;
+    }
+
+.h2{border-left:5px solid orange;}
+
+.area{display: flex; }
+
+article{flex:3; min-height: 500; padding-top:20px ; padding-left: 10px; 
+margin: 0; border-top: 2px solid darkred}
+
+aside{flex: 2;min-height: 500; padding-top:20px ; padding-left: 20px; 
+    margin: 0; border-top: 2px solid darkred; border-left: 2px dashed darkred; }
+
+.aside ul li a:link, aside ul li a:active, aside ul li a:visited{color: rgb(223, 149, 75);}
+.aside ul li a:hover{color: peru; font-size: 150%;}
+
+footer{color: brown; background-color: rgb(228, 186, 131);
+    text-decoration: underline chocolate; height: 20px; 
+   }
+
